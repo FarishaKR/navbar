@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  width: 100%;
+  height: 15%;
+  background-color: beige;
+  line-height: 75px;
+  position: fixed;
+  z-index: 1;
+}
+nav .banner {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+nav .banner p {
+  float: left;
+  text-transform: uppercase;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 32px;
+  font-weight: 300;
+}
